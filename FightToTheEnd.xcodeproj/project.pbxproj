@@ -14,6 +14,7 @@
 		399879AF1D222688000331C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399879AD1D222688000331C6 /* Main.storyboard */; };
 		399879B11D222688000331C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399879B01D222688000331C6 /* Assets.xcassets */; };
 		399879B41D222688000331C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399879B21D222688000331C6 /* LaunchScreen.storyboard */; };
+		399879BC1D2233F9000331C6 /* hero.png in Resources */ = {isa = PBXBuildFile; fileRef = 399879BB1D2233F9000331C6 /* hero.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		399879B01D222688000331C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		399879B31D222688000331C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		399879B51D222688000331C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399879BB1D2233F9000331C6 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		399879A41D222688000331C6 /* FightToTheEnd */ = {
 			isa = PBXGroup;
 			children = (
+				399879BD1D22343A000331C6 /* images */,
 				399879A51D222688000331C6 /* AppDelegate.swift */,
 				399879A71D222688000331C6 /* GameScene.sks */,
 				399879A91D222688000331C6 /* GameScene.swift */,
@@ -68,6 +71,14 @@
 				399879B51D222688000331C6 /* Info.plist */,
 			);
 			path = FightToTheEnd;
+			sourceTree = "<group>";
+		};
+		399879BD1D22343A000331C6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				399879BB1D2233F9000331C6 /* hero.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +143,7 @@
 				399879B41D222688000331C6 /* LaunchScreen.storyboard in Resources */,
 				399879B11D222688000331C6 /* Assets.xcassets in Resources */,
 				399879AF1D222688000331C6 /* Main.storyboard in Resources */,
+				399879BC1D2233F9000331C6 /* hero.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
