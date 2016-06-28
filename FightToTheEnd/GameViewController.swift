@@ -1,11 +1,3 @@
-//
-//  GameViewController.swift
-//  FightToTheEnd
-//
-//  Created by thunisoft on 16/6/28.
-//  Copyright (c) 2016年 cynhard. All rights reserved.
-//
-
 import UIKit
 import SpriteKit
 
